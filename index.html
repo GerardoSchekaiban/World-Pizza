@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <link rel="shortcut icon" href="./IMG/logo.png">
+    <title>World Pizza</title>
+</head>
+<body>
+
+    <!--Botón IR ARRIBA-->
+    <div id="btn-top">
+        <span class="fas fa-angle-up"></span>
+    </div>
+
+    <!--Menú Principal-->
+    <div class="menu-principal">
+        <div class="logo" id="logo">
+            <img src="https://i.ibb.co/pKggsGk/logo.png" alt="">
+        </div>
+
+        <div class="barra-menu" id="barraMenu">
+            <!--Ícono regresar-->
+            <i class="fas fa fa-angle-right" id="btnCerrarMenu"></i>
+            <nav class="enlaces" id="enlaces">
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#equipo">Equipo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="redes-sociales">
+                <a href="#"><span class="fab fa-facebook"></span></a>
+                <a href="#"><span class="fab fa-instagram"></span></a>
+                <a href="#"><span class="fab fa-twitter"></span></a>
+                <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+        </div>
+        <!--Ícono 3 líneas-->
+        <i class="fas fa-bars" id="btnAbrirMenu"></i>
+
+    </div>
+
+    <!--Slider de productos-->
+    <section id="menu-productos">
+        <div class="contenedor-principal">
+            <button id="btn-izq"><span class="fas fa-angle-left"></span></button>
+            <div class="slider">
+                <div class="contenedor-productos">
+                    <div class="descrip-producto">
+                        <h2>Producto <b>premium</b></h2>
+                        <h1>Peperonni</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptatibus delectus ex accusantium odit. Ullam nostrum repellendus 
+                            fuga eveniet?</p>
+
+                        <button class="btn">¡Solicítala aquí! <span class="fas fa-angle-right"></span></button>
+                    </div>
+
+                    <div class="img-productos">
+                        <img src="https://i.ibb.co/5xYJxbZ/peperoni.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="contenedor-productos">
+                    <div class="descrip-producto">
+                        <h2>Producto <b>premium</b></h2>
+                        <h1>Especial</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptatibus delectus ex accusantium odit. Ullam nostrum repellendus 
+                            fuga eveniet?</p>
+
+                        <button class="btn">¡Solicítala aquí! <span class="fas fa-angle-right"></span></button>
+                    </div>
+
+                    <div class="img-productos">
+                        <img src="https://i.ibb.co/JQqqHKW/especial.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="contenedor-productos">
+                    <div class="descrip-producto">
+                        <h2>Producto <b>básico</b></h2>
+                        <h1>Margarita</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptatibus delectus ex accusantium odit. Ullam nostrum repellendus 
+                            fuga eveniet?</p>
+
+                        <button class="btn">¡Solicítala aquí! <span class="fas fa-angle-right"></span></button>
+                    </div>
+
+                    <div class="img-productos">
+                        <img src="https://i.ibb.co/km8b0Dr/margarita.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="contenedor-productos">
+                    <div class="descrip-producto">
+                        <h2>Producto <b>premium</b></h2>
+                        <h1>Americana</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptatibus delectus ex accusantium odit. Ullam nostrum repellendus 
+                            fuga eveniet?</p>
+
+                        <button class="btn">¡Solicítala aquí! <span class="fas fa-angle-right"></span></button>
+                    </div>
+
+                    <div class="img-productos">
+                        <img src="https://i.ibb.co/X3HFFhh/americana.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="contenedor-productos">
+                    <div class="descrip-producto">
+                        <h2>Producto <b>especial</b></h2>
+                        <h1>Suprema</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptatibus delectus ex accusantium odit. Ullam nostrum repellendus 
+                            fuga eveniet?</p>
+
+                        <button class="btn">¡Solicítala aquí! <span class="fas fa-angle-right"></span></button>
+                    </div>
+
+                    <div class="img-productos">
+                        <img src="https://i.ibb.co/6rkcF2f/suprema.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <button id="btn-der"><span class="fas fa-angle-right"></span></button>
+        </div>
+    </section>
+
+    <!--Sección Servicios-->
+    <section id="servicios">
+        <div class="titulos">
+            <h2 class="subtitulo">La mejor pizza del Mundo</h2>
+            <h1 class="titulos">Bienvenidos a World Pizza</h1>
+        </div>
+
+        <div class="contenedor-servicios">
+            <div class="img-central">
+                <img src="https://i.ibb.co/chHwL7V/mitad-mitad.png" alt="">
+            </div>
+
+            <div class="items calidad">
+                <p><span class="fas fa-pizza-slice"></span></p>
+                <p class="titulo-item">Calidad</p>
+                <p class="texto-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="items ingredientes">
+                <p><span class="fas fa-cheese"></span></p>
+                <p class="titulo-item">Ingredientes</p>
+                <p class="texto-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="items rapidez">
+                <p><span class="fas fa-clock"></span></p>
+                <p class="titulo-item">Rapidez</p>
+                <p class="texto-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="items delivery">
+                <p><span class="fas fa-shipping-fast"></span></p>
+                <p class="titulo-item">Delivery</p>
+                <p class="texto-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+
+        </div>
+
+    </section> 
+
+    <!--Equipo-->
+    <section id="equipo">
+        <div class="persona">
+            <img src="https://i.ibb.co/VmB1dQR/perfil1.png" alt="" class="persona-imagen">
+            <div class="persona-info">
+                <h2>Jesús Alonso</h2>
+                <p>Chef Pizzero</p>
+                <div class="redes-sociales">
+                    <a href=""><span class="fab fa-facebook"></span></a>
+                    <a href=""><span class="fab fa-instagram"></span></a>
+                    <a href=""><span class="fab fa-twitter"></span></a>
+                    <a href=""><span class="fab fa-linkedin"></span></a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="persona">
+            <img src="https://i.ibb.co/2sx7HXZ/perfil2.png" alt="" class="persona-imagen">
+            <div class="persona-info">
+                <h2>Elisa Smith</h2>
+                <p>Chef</p>
+                <div class="redes-sociales">
+                    <a href=""><span class="fab fa-facebook"></span></a>
+                    <a href=""><span class="fab fa-instagram"></span></a>
+                    <a href=""><span class="fab fa-twitter"></span></a>
+                    <a href=""><span class="fab fa-linkedin"></span></a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="persona">
+            <img src="https://i.ibb.co/k30j7Zh/perfil3.png" alt="" class="persona-imagen">
+            <div class="persona-info">
+                <h2>Henry Griffing</h2>
+                <p>Asistente Chef</p>
+                <div class="redes-sociales">
+                    <a href=""><span class="fab fa-facebook"></span></a>
+                    <a href=""><span class="fab fa-instagram"></span></a>
+                    <a href=""><span class="fab fa-twitter"></span></a>
+                    <a href=""><span class="fab fa-linkedin"></span></a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="persona">
+            <img src="https://i.ibb.co/NZJ4tWx/perfil4.png" alt="" class="persona-imagen">
+            <div class="persona-info">
+                <h2>Paulina Vega</h2>
+                <p>Asistente</p>
+                <div class="redes-sociales">
+                    <a href=""><span class="fab fa-facebook"></span></a>
+                    <a href=""><span class="fab fa-instagram"></span></a>
+                    <a href=""><span class="fab fa-twitter"></span></a>
+                    <a href=""><span class="fab fa-linkedin"></span></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Ingredientes-->
+    <section id="ingredientes">
+        <div class="contenedor-ingre">
+            <img src="https://i.ibb.co/qWF3mhk/ingredientes1.jpg" alt="" class="img-ingre">
+            <div class="info">
+                <p><span class="fas fa-cheese"></span></p>
+                <p class="ingrediente">Quesos</p>
+            </div>
+        </div>
+
+        <div class="contenedor-ingre">
+            <img src="https://i.ibb.co/RC4k4vK/ingredientes2.jpg" alt="" class="img-ingre">
+            <div class="info">
+                <p><span class="fas fa-leaf"></span></p>
+                <p class="ingrediente">Vegetales</p>
+            </div>
+        </div>
+
+        <div class="contenedor-ingre">
+            <img src="https://i.ibb.co/FxqFTW0/ingredientes3.jpg" alt="" class="img-ingre">
+            <div class="info">
+                <p><span class="fas fa fa-fill-drip"></span></p>
+                <p class="ingrediente">Salsas</p>
+            </div>
+        </div>
+
+        <div class="contenedor-ingre">
+            <img src="https://i.ibb.co/ZgcsCrM/ingredientes4.jpg" alt="" class="img-ingre">
+            <div class="info">
+                <p><span class="fas fa-drumstick-bite"></span></p>
+                <p class="ingrediente">Carnes</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Contacto-->
+    <section id="contacto">
+        <div class="titulos-contacto">
+            <h2 class="subtitulo">Queremos conocer tu opinión</h2>
+            <h1 class="titulos">Contáctanos</h1>
+        </div>
+
+        <form action="" id="formulario">
+            <div class="two-fields">
+                <div class="input-icono">
+                    <input type="text" id="nombre" name="nombre" class="input-text" placeholder="nombre">
+                    <i class="fas fa-user"></i>
+                </div>
+
+                <div class="input-icono">
+                    <input type="email" id="email" name="email" class="input-email" placeholder="Email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="input-icono textarea-icono">
+                    <textarea name="comentarios" id="comentarios" class="textarea" placeholder="Ingrese su mensaje"></textarea>
+                    <i class="fas fa-comments"></i>
+                </div>
+            </div>
+
+            <div class="field-btn">
+                <input type="submit" class="btn btn-input" value="Enviar">
+            </div>
+        </form>
+    </section>
+
+    <!--Alertas-->
+    <div class="alertas">
+        <div id="alerta-error" class="alert hide">
+            <span class="icono-alert fas fa-exclamation-circle"></span>
+            <span class="msg">Error: campos de entrada vacíos</span>
+        </div>
+
+        <div id="alerta-correcto" class="alert hide">
+            <span class="icono-alert fas fa-check-circle"></span>
+            <span class="msg">Datos enviados: Gracias por contactarnos!</span>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="sociales-metodo">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Lorem ipsum dolor sit amet</span>
+        </div>
+
+        <div class="sociales-metodo">
+            <i class="fas fa-envelope"></i>
+            <span>info@worldpizza.com</span>
+        </div>
+
+        <div class="sociales-metodo">
+            <i class="fas fa-phone"></i>
+            <span>8331545654</span>
+        </div>
+
+        <div class="sociales-metodo">
+            <i class="fab fa-twitter"></i>
+            <span>@worldpizza</span>
+        </div>
+    </footer>
+
+
+    <script src="JS/app.js"></script>
+</body>
+</html>
